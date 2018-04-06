@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="/CSS/TrangChu.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="menu">
+
+        <ul class="ul1">
+            <li><a href="">TRANG CHỦ</a> </li>
+            <li><a href="">GIỚI THIỆU</a> </li>
+            <li>
+                <a href="">THỰC ĐƠN</a>
+                <ul class="sub-menu">
+                    <li><a href="/PhanAn/PhanAn"><img src="/images/foody-alpha-go-fast-food-more-134-636169041665796569.jpg" width="85" height="85">phần ăn combo</a></li>
+                    <li><a href="#"><img src="/images/hqdefault.jpg" width="80" height="80">gà rán và quay </a></li>
+                    <li><a href="#"><img src="/images/1557be99c3d1258.jpg" width="80" height="80">hamburger và cơm</a></li>
+                    <li><a href="#"><img src="/images/1359079081104910_574_574.jpg" width="80" height="80">thức ăn nhẹ</a></li>
+                    <li><a href="#"><img src="/images/tải xuống.jpg" width="80" height="80">tráng miệng và thức uống </a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">NHÀ HÀNG</a> </li>
+            <li><a href="#">KHÁCH HÀNG</a> </li>
+            <li> <a href="#">KHUYẾN MÃI</a></li>
+            <li><a href="#">GIỎ HÀNG</a></li>
+            <li><a href="#">Đăng Nhập</a></li>
+            <li><a href="#">Đăng Ký</a></li>
+
+        </ul>
+    </div>
+
+
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
