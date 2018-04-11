@@ -1,0 +1,98 @@
+﻿body {
+   padding-top:50px;
+   overflow:auto;
+
+}
+
+#DKnen{
+    width:300px;
+    height:450px;
+    background-color:#ffe4b9;
+    margin-left:10px;
+    padding-top:10px;
+    text-align:center;
+    margin-left:520px;
+    border:7px dashed red;
+}
+#mauDK{
+    width:300px;
+    height:30px;
+    color:#c73b3b;
+    font-family:Tahoma;
+    font-weight:bold;
+}
+#hvt{
+    text-align:right;
+    width:300px;
+    height:30px;
+ }
+#email{
+    width:300px;
+    height:30px;
+  text-align:right;
+}
+
+#dkpass{
+    text-align:right;
+    width:300px;
+    height:30px;
+}
+#llpass{
+    text-align:right;
+    width:300px;
+    height:30px;
+}
+#gioitinh{
+    width:300px;
+    height:30px;
+}
+#ngaysinh{
+    text-align:right;
+    width:300px;
+    height:30px;
+}
+#dthoai{
+    text-align:right;
+    width:300px;
+    height:30px;
+}
+#btnDK {
+    text-align:center;
+    width: 300px;
+    height: 30px;
+}
+#dangky{
+    width:100px;
+    height:30px;
+    background-color:#009;
+    font-size:medium;
+    border-radius:5px;
+    color:#ffffff
+}
+#dangky:hover {
+    background-color:#0094ff
+}
+a{
+   text-decoration:none;
+   font-family:'Arial Unicode MS';
+   color:red;
+}
+a:hover{
+    font-weight:bold;
+}
+#DKface{
+    color:#ffffff;
+    margin-top:5px;
+    line-height:2;
+    text-align:center;
+    width:300px;
+    height:40px;
+    background-image:url(/images/f.png);
+}
+#DKgle{
+    line-height:2;
+     text-align:center;
+    width:300px;
+    height:40px;
+    background-image:url(/images/g.png);
+}

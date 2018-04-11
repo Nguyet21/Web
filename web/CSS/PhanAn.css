@@ -11,11 +11,8 @@ h1{
 	list-style-type: none;
 	background: #5F9EA0;
 	border: 1px solid gray;
-	width: 1070px;
-	padding-left: 30px;
-	position: relative;
-	left: 150px;
-
+	width: 1366px;
+    text-align:center;
 }
 #menu1 ul li a{
 	text-decoration: none;
@@ -30,31 +27,39 @@ h1{
 	height: 40px;
 	line-height: 20px;
 	position: relative;
-	left: 140px;
+	/*left: 140px;*/
 	padding-left: 20px;
-
+    text-align:center;
 }
 #menu1 ul li a:hover{
 	background: #DC143C;
 	color: white;
+}
+.phanan{
+     background-color:#008B8B; 
+    width:1056px;
+    height:504px;
+    margin:auto;
 }
 .phanan a{
 	text-decoration: none;
 	color: black;
 	font-family: Tahoma;
 	font-weight: bold;
-	position: relative;
-	left: 20px;
+	left: 50px;
 
 }
 .phanan img{
 
 	width: 300px;
 	height: 200px;
-	
+	background-color:aqua
 }
 #anh{
-	width: 400px;
-	height: 300px;
-	float: right;
+	width: 350px;
+	height: 250px;
+    text-align:center;
+    background-color:aqua;
+    border:1px solid;
+    float:left;
 }
