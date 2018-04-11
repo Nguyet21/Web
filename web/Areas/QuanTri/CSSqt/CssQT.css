@@ -1,0 +1,16 @@
+﻿body {
+}
+#qt{
+    width:auto;
+    height:500px;
+}
+#menuqt{
+    width:150px;
+    height:100px;
+}
+#ql{
+    width:150px;
+    height:30px;
+    background-color:#0094ff;
+    border:1px solid #ffffff;
+}

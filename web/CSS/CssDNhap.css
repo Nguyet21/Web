@@ -1,0 +1,71 @@
+﻿body {
+   padding-top:100px;
+   overflow:auto;
+
+}
+
+#DNnen{
+    width:300px;
+    height:300px;
+    background-color:#ffe4b9;
+    margin-left:10px;
+    padding-top:10px;
+    text-align:center;
+    margin-left:520px;
+    border:7px dashed red;
+}
+#avartar{
+    width:50px;
+    height:50px;
+    background-color:#ffffff;
+    background-position:center;
+    background-size:cover;
+    background-image:url(/images/avartar.png);
+    margin: 0px 0px 20px 120px;
+    margin-bottom:10px;
+    border-radius:26px;
+}
+#mauDN{
+    width:300px;
+    height:30px;
+    color:#c73b3b;
+    font-family:Tahoma;
+    font-weight:bold;
+}
+#DNND{
+    width:295px;
+    height:30px;
+ 
+}
+#DNpass{
+    width:300px;
+    height:30px;
+    padding-top:10px;
+}
+#btnDN{
+    width:300px;
+    height:30px;
+}
+#dangnhap{
+    width:100px;
+    height:30px;
+    background-color:#0026ff;
+    color:#ffffff;
+    font-weight:bold;
+    cursor:pointer;
+    border:none;
+    border-radius:10px;
+}
+#dangnhap:hover{
+    background-color:#0094ff;
+    font-size:medium
+}
+a{
+   text-decoration:none;
+   font-family:'Arial Unicode MS';
+   color:#ff006e
+}
+a:hover{
+    color:#c73b3b;
+    font-weight:bold;
+}

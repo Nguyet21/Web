@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +40,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -81,14 +86,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\QuanTri\CSSqt\CssQT.css" />
+    <Content Include="CSS\CssDKy.css" />
+    <Content Include="CSS\CssDNhap.css" />
+    <Content Include="CSS\CssQT.css" />
     <Content Include="CSS\PhanAn.css" />
     <Content Include="CSS\TrangChu.css" />
     <Content Include="Global.asax" />
+    <Content Include="Areas\QuanTri\Views\web.config" />
+    <Content Include="Areas\QuanTri\Views\DangNhap\DNhap.cshtml" />
+    <Content Include="Areas\QuanTri\Views\DangNhap\DKy.cshtml" />
+    <Content Include="Areas\QuanTri\Views\Shared\_LayoutQTri.cshtml" />
+    <Content Include="Areas\QuanTri\Views\TrChuQT\TrangChuQT.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\1359079081104910_574_574.jpg" />
     <Content Include="images\155799b7be36cc7.jpg" />
     <Content Include="images\1557be99c3d1258.jpg" />
     <Content Include="images\20171121163837.jpg" />
+    <Content Include="images\anhdd.png" />
+    <Content Include="images\avartar.png" />
     <Content Include="images\barbecue-bbq-chicken-106343.jpg" />
     <Content Include="images\beef-blur-bread-551991.jpg" />
     <Content Include="images\bg1.PNG" />
@@ -100,7 +116,9 @@
     <Content Include="images\calories-chicken-chopping-board-616353.jpg" />
     <Content Include="images\chicken-close-up-crispy-60616.jpg" />
     <Content Include="images\chips-dinner-fast-food-70497.jpg" />
+    <Content Include="images\f.png" />
     <Content Include="images\foody-alpha-go-fast-food-more-134-636169041665796569.jpg" />
+    <Content Include="images\g.png" />
     <Content Include="images\ga1.PNG" />
     <Content Include="images\ga10.PNG" />
     <Content Include="images\ga11.PNG" />
@@ -116,6 +134,8 @@
     <Content Include="images\ga8.PNG" />
     <Content Include="images\ga9.PNG" />
     <Content Include="images\hqdefault.jpg" />
+    <Content Include="images\lang-en-mobile.png" />
+    <Content Include="images\lang-vn-mobile.png" />
     <Content Include="images\left-arrow.png" />
     <Content Include="images\right-arrow.png" />
     <Content Include="images\TA1.PNG" />
@@ -130,7 +150,9 @@
     <Content Include="images\TM4.PNG" />
     <Content Include="images\TM5.PNG" />
     <Content Include="images\TM6.PNG" />
+    <Content Include="images\top.jpg" />
     <Content Include="images\tải xuống.jpg" />
+    <Content Include="images\yum.jpg" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -142,6 +164,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\QuanTri\Controllers\DangNhapController.cs" />
+    <Compile Include="Areas\QuanTri\Controllers\TrChuQTController.cs" />
+    <Compile Include="Areas\QuanTri\QuanTriAreaRegistration.cs" />
     <Compile Include="Controllers\PhanAnController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
     <Compile Include="Global.asax.cs">
@@ -165,6 +190,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\QuanTri\Models\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

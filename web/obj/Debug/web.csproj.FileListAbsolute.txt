@@ -16,3 +16,24 @@ E:\c#\ASP.NET\web\web\bin\System.Web.Mvc.xml
 E:\c#\ASP.NET\web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
 E:\c#\ASP.NET\web\web\obj\Debug\web.dll
 E:\c#\ASP.NET\web\web\obj\Debug\web.pdb
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\web.dll.config
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\web.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\web.pdb
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\Newtonsoft.Json.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Helpers.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Mvc.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Razor.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Webpages.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Webpages.Razor.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\Newtonsoft.Json.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Razor.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Webpages.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Webpages.Razor.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Helpers.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\System.Web.Mvc.xml
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\obj\Debug\web.dll
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\obj\Debug\web.pdb
+C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\Microsoft.Web.Infrastructure.dll
