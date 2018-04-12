@@ -37,3 +37,24 @@ C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\obj\Debug\web.csprojR
 C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\obj\Debug\web.dll
 C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\obj\Debug\web.pdb
 C:\Users\DUC\Documents\Visual Studio 2015\Projects\Web\web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\web.dll.config
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\web.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\web.pdb
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\Newtonsoft.Json.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Helpers.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Mvc.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Razor.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Webpages.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\Newtonsoft.Json.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Razor.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Webpages.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Helpers.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Mvc.xml
+C:\Users\Nguyet\Documents\GitHub\Web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
+C:\Users\Nguyet\Documents\GitHub\Web\web\obj\Debug\web.dll
+C:\Users\Nguyet\Documents\GitHub\Web\web\obj\Debug\web.pdb
