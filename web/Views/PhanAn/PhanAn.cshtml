@@ -10,10 +10,14 @@
     <title>Noi Dung</title>
     <link href="/CSS/TrangChu.css" rel="stylesheet" />
     <link href="/CSS/PhanAn.css" rel="stylesheet" />
+    <script src="~/script1/sphanan.js"></script>
 </head>
 <body>
-    <h1>THỰC ĐƠN</h1>
-    <div id="menu1">
+
+    <div style="text-align:center ; height:100px;">
+        <br /><br />
+        <h1><b style="color:#00ff21; text-align:center;">THỰC ĐƠN</b></h1>
+    </div> @*<div id="menu1">
         <ul>
             <li><a href="#">Phần ăn combo</a></li>
             <li><a href="#">Gà rán và quay</a></li>
@@ -21,16 +25,282 @@
             <li><a href="#">Thức ăn nhẹ</a></li>
             <li><a href="#">Tráng Miệng và Đồ uống</a></li>
         </ul>
+    </div>*@
+    <div>
+        <div class="tab">
+            <button class="tablinks" style="width:200px" onclick="openCity(event, 'p1')">Phần ăn combo</button>
+            <button class="tablinks" style="width:190px" onclick="openCity(event, 'p2')">Gà rán và quay</button>
+            <button class="tablinks" style="width:190px" onclick="openCity(event, 'p3')">Hamburger và cơm</button>
+            <button class="tablinks" style="width:190px" onclick="openCity(event, 'p4')">Thức ăn nhẹ</button>
+            <button class="tablinks" style="width:188px" onclick="openCity(event, 'p5')">Tráng Miệng và Đồ uống</button>
+            <!-- Tab content -->
+        </div>
+        <div id="p1" class="tabcontent">
+            <br /><br />
+            <div id="anh" style="float:left; "><a href="#">
+                <img src="/images/ga4.PNG" alt="" />COMBO 2 NGƯỜI </a><br /><b style="color:#ff0000;">
+    139.000 VNĐ
+    <button type="button" onclick="up()">+</button>
+</b>
+               </div>
+            <div style="height:250px; width:0px; float:right;"><br /><br /></div>
+            <div id="anh" style="float:right;"><a href="#"><img src="~/images/ga5.PNG" alt="" />COMBO 3 NGƯỜI </a><br /><b style="color:#ff0000;">
+    199.000 VNĐ
+    <button type="button" onclick="up()">+</button>
+</b>
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh" style="float:right;"><a href="#"><img src="~/images/ga6.PNG" alt="" /><br />COMBO KIDDIE </a><br /><b style="color:#ff0000;">81.000 VNĐ</b>
+               <button type="button" onclick="up()">+</button>
+          
+            </div>
+            <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+            <div id="anh" style="float:right;"><a href="#"><img src="~/images/ga7.PNG" alt="" /><br />COMBO GÀ RÁN B </a><br /><b style="color:#ff0000;">199.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh" style="float:right;"><a href="#"><img src="~/images/ga8.PNG" alt="" /><br />PHẦN ĂN XL</a><br />  <b style="color:#ff0000;">99.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh" style="float:right;"><a href="#"><img src="~/images/ga9.PNG" alt="" /><br />COMBO GÀ </a><br /><b style="color:#ff0000;">55.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+</div>
+        <div id="p2" class="tabcontent">
+
+        </div>
+    
+        <div id="p3" class="tabcontent">
+            <br /><br />
+            <div id="anh1" style="float:left;"><a href="#">
+                                                   <img src="~/anh1/h1.PNG" /><br /> CƠM CÀ RỐT NHẬT</a><br /> <b style="color:#ff0000;">41.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:0px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/h2.PNG" /><br />BƠ GƠ TÔM </a> <br /><b style="color:#ff0000;">42.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+               
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/h3.PNG" /><br />BƠ-GƠ GÀ QUAY FLAVA </a><br /> <b style="color:#ff0000;">45.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:20px; float:right;"><br /><br /></div>
+            <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/h4.PNG" /><br />BƠ-GƠ ZINGER </a> <br /><b style="color:#ff0000;">49.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/h5.PNG" /><br /> CƠM GÀ TRUYỀN THỐNG </a> <br /><b style="color:#ff0000;">41.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:25px; float:right;"><br /><br /></div>
+
+            <div id="anh1" style="float:right;">
+                <a href="#"><img src="~/anh1/h6.PNG" /><br />CƠM GÀ RÁN GIÒN CAY</a> <br /><b style="color:#ff0000;">41.000 VNĐ</b>
+                
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+
+            <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/h7.PNG" /><br />CƠM PHI-LÊ GÀ QUAY FLAVA </a> <br /><b style="color:#ff0000;">41.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/h5.PNG" /><br />CƠM PHI-LÊ GÀ QUAY TIÊU </a> <br /><b style="color:#ff0000;">41.000 VNĐ</b>
+               <button type="button" onclick="up()">+</button>
+               
+            </div>
+            <div style="height:250px; width:25px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;">
+                <a href="#"><img src="~/anh1/h5.PNG" /><br />.CƠM GÀ XIÊN QUE </a> <br /><b style="color:#ff0000;">41.000 VNĐ</b>
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:30px; width:960px; float:right;"><br /><br /></div>
+        </div>
+
+        </div>
+    <div id="p4" class="tabcontent">
+
+        <br /><br />
+        <div id="anh1" style="float:left;">
+            <a href="#">
+                <img src="~/anh1/t6.PNG" /><br />KHOAI TÂY CHIÊN (Lớn)
+            </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+            <button type="button" onclick="up()">+</button>
+
+        </div>
+        <div style="height:250px; width:0px; float:right;"><br /><br /></div>
+        <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/t1.PNG" /><br />GÀ VIÊN (VỪA)  </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            
+
+        </div>
+        <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+        <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/t2.PNG" /><br />GÀ VIÊN (LỚN)  </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            
+        </div>
+        <div style="height:250px; width:20px; float:right;"><br /><br /></div>
+        <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+        <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/t3.PNG" /><br />3 MIẾNG CA THANH  </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            
+        </div>
+        <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+        <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/t4.PNG" /><br /> KHOAI TÂY CHIÊN VỪA  </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            
+        </div>
+        <div style="height:250px; width:25px; float:right;"><br /><br /></div>
+
+        <div id="anh1" style="float:right;">
+            <a href="#">
+                <img src="~/anh1/t6.PNG" /><br />KHOAI TÂY CHIÊN (ĐẠI)
+            </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            
+        </div>
+        <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+
+        <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/t7.PNG" /><br />KHOAI TÂY NGHIỀN (VỪA)  </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            </div>
+        <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+        <div id="anh1" style="float:right;"><a href="#"><img src="~/anh1/t8.PNG" /><br />KHOAI TÂY NGHIỀN (LỚN)  </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+            <button type="button" onclick="up()">+</button>
+            
+        </div>
+        <div style="height:250px; width:25px; float:right;"><br /><br /></div>
+        <div id="anh1" style="float:right;">
+            <a href="#">
+                <img src="~/anh1/t11.PNG" /><br />MÌ Ý PACHITO
+            </a> <br /><b style="color:#ff0000;">0 VNĐ</b>
+
+                <button type="button" onclick="up()">+</button>
+                
+           
+        </div>
+        <div style="height:30px; width:960px; float:right;"><br /><br /></div>
+    
+
+    </div>
+        <div id="p5" class="tabcontent">
+            <br /><br />
+            <div id="anh1" style="float:left;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/10e1d6bb37ae34c3614a0d2bcfbd6819.jpg" /><br /> KEM SUNDAE KFC
+</a> <br /><b style="color:#ff0000;">12.000VND</b>
+
+                <button type="button" onclick="up()" >+</button>
+                
+            </div>
+            <div style="height:250px; width:0px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/813f69a38f29337488f0d30dcc299bd5.jpg" /><br />KEM ỐC QUẾ
+</a> <br /><b style="color:#ff0000;">5.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+                </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/1370dddff397feb477c13cf007cad409.jpg" /><br />KEM PHỦ SÔ-CÔ-LA
+</a> <br /><b style="color:#ff0000;">7.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+               
+            </div>
+            <div style="height:250px; width:20px; float:right;"><br /><br /></div>
+            <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/6b5e6fa66b96309a58d6eec9bba9a888.jpg" /><br />BÁNH TRỨNG NƯỚNG (1 CÁI)
+</a> <br /><b style="color:#ff0000;">17.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/be1e85ca19b0fbba1c2a3174655905c0.jpg" /><br /> BÁNH TRỨNG NƯỚNG (4 CÁI)
+</a> <br /><b style="color:#ff0000;">50.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:25px; float:right;"><br /><br /></div>
+          
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/e745e876eb1356a94998659cccb47866.jpg" /> <br />CHAI AQUAFINA 500ML
+</a> <br /><b style="color:#ff0000;">15.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:40px; width:960px; float:right;"><br /><br /></div>
+          
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/c40f26e8980a189cc561cf8a19bc0975.jpg" /><br />PEPSI (LỚN)
+</a> <br /><b style="color:#ff0000;">17.000VND</b>
+
+               <button type="button" onclick="up()">+</button>
+               
+            </div>
+            <div style="height:250px; width:30px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;"><a href="#">
+    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/8b858b57c3fc228c84da80d852f6a533.jpg" /><br />PEPSI (VỪA)
+</a> <br /><b style="color:#ff0000;">10.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+                
+            </div>
+            <div style="height:250px; width:25px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:right;">
+                <a href="#">
+                    <img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/62a4c8427f2a38b7a3048cd6028bc128.jpg" /><br />DIET PEPSI 330ML (1 LON)
+                </a> <br /><b style="color:#ff0000;">17.000VND</b>
+
+               <button type="button" onclick="up()">+</button>
+                
+            </div>
+             <div style="height:30px; width:960px; float:right;"><br /><br /></div>
+            <div id="anh1" style="float:left;"><a href="#"><img src="~/anh/Tr%c3%a1ng%20mi%e1%bb%87ng%20&%20th%e1%bb%a9c%20u%e1%bb%91ng/22f6740e1c346fe7a561d9b0faa4117f.png" /><br />KEM SỬA CHEESECAKE KACCHIATO RED VELVET 
+                </a> <br /><b style="color:#ff0000;">33.000VND</b>
+
+                <button type="button" onclick="up()">+</button>
+                @*<input type="text" id="demo" style="width:15px;" value="0">
+                <button type="button" onclick="down()">-</button>*@
+
+            </div>
+            <div style="height:50px; width:960px; float:right;"><br /><br /></div>
+
+        </div>
+
+
+   
+    <div class="login" id="login-box">
+        <button type="button" onclick="up()">+</button>
+        <input type="text" id="demo" style="width:15px;" value="0">
+        <button type="button" onclick="down()">-</button>
     </div>
 
-    <div class="phanan">
+    <img src="~/images/ga4.PNG" style="width:965px; margin:0px 0px 0px 200px; height:300px;" />
 
-        <div id="anh"><a href="#"><img src="/images/ga4.PNG" alt="" /><br />COMBO 2 NGƯỜI 139.000 VNĐ</a></div>
-        <div id="anh"><a href="#"><img src="/images/ga5.PNG" alt="" /><br />COMBO 3 NGƯỜI 199.000 VNĐ</a></div>
-        <div id="anh"><a href="#"><img src="/images/ga6.PNG" alt="" /><br />COMBO KIDDIE 1 81.000 VNĐ</a></div>
-        <div id="anh"><a href="#"><img src="/images/ga7.PNG" alt="" /><br />COMBO GÀ RÁN B </a></div>
-        <div id="anh"><a href="#"><img src="/images/ga8.PNG" alt="" /><br />PHẦN ĂN XL  99.000 VNĐ</a></div>
-        <div id="anh"><a href="#"><img src="/images/ga9.PNG" alt="" /><br />COMBO GÀ 55.000 VNĐ</a></div>
-    </div>
 </body>
 </html>

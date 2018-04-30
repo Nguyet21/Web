@@ -1,65 +1,102 @@
-﻿body{
-	font-family: Tahoma;
-	background: white;
-}
-h1{
-	text-align: center;
-	color: #008B8B;
-
-}
-#menu1 ul{
-	list-style-type: none;
-	background: #5F9EA0;
-	border: 1px solid gray;
-	width: 1366px;
-    text-align:center;
-}
-#menu1 ul li a{
-	text-decoration: none;
-	color: white;
-	font-family: Tahoma;
-	font-weight: bold;
-	display: block;
-}
-#menu1 ul li{
-	display: inline-table;
-	width: 120px;
-	height: 40px;
-	line-height: 20px;
-	position: relative;
-	/*left: 140px;*/
-	padding-left: 20px;
-    text-align:center;
-}
-#menu1 ul li a:hover{
-	background: #DC143C;
-	color: white;
-}
-.phanan{
-  
-    width:1056px;
-    height:504px;
-    margin:auto;
-}
-.phanan a{
-	text-decoration: none;
-	color: black;
-	font-family: Tahoma;
-	font-weight: bold;
-	left: 50px;
-
-}
-.phanan img{
-
+﻿   #body {
+            font-family: Tahoma;
+            text-align: left;
+            width: 960px;
+          color:black;
+        }
+         #anh{
 	width: 300px;
-	height: 200px;
-	
-}
-#anh{
-	width: 350px;
+	height: 300px;
+    text-align:center;
+    
+    /*border:1px solid;*/
+     /*float:left;*/
+    } #anh1{
+	width: 300px;
+	height: 270px;
+    text-align:center;
+    
+     /*
+    border:1px solid;
+         float:left;*/
+    }
+       #anh a{
+           font-family:Tahoma;
+          text-decoration:none;
+      }
+      #anh1 a{
+          text-decoration:none;
+      }
+       #anh1 img{
+	width: 300px;
 	height: 250px;
     text-align:center;
     
-    border:1px solid;
-    float:left;
-}
+   
+     /* border:1px solid;
+         float:left;*/
+    }
+        #banner{
+            width:100%;
+            height:100px;
+        }
+
+        .tab {
+            margin:0px 0px 0px 200px;
+                
+            width:960px;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+            /* Style the buttons that are used to open the tab content */
+            .tab button {
+                
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+            }
+
+                /* Change background color of buttons on hover */
+                .tab button:hover {
+                    background-color: #ddd;
+                }
+
+                /* Create an active/current tablink class */
+                .tab button.active {
+                    background-color: #f00;
+                    color:black;
+                    
+                }
+
+        /* Style the tab content */
+        .tabcontent {
+            color:black;
+            font-size:18px;
+            font-family:Tahoma;
+            display: none;
+            margin:0px 100px 0px 200px;
+            /*padding: 6px 12px;*/
+            /*border: 1px solid #ccc;*/
+            border-top: none;
+            /*background:#f1f1f1;*/
+        }
+  
+/*/*//////////////////////*/
+/*phần tử phủ toàn màn hình,không được hiển thị*/
+/*#over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}*/

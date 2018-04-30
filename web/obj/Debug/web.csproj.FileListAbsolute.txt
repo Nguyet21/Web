@@ -58,3 +58,28 @@ C:\Users\Nguyet\Documents\GitHub\Web\web\bin\System.Web.Mvc.xml
 C:\Users\Nguyet\Documents\GitHub\Web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
 C:\Users\Nguyet\Documents\GitHub\Web\web\obj\Debug\web.dll
 C:\Users\Nguyet\Documents\GitHub\Web\web\obj\Debug\web.pdb
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\web.dll.config
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\web.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\web.pdb
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Helpers.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Mvc.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Razor.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Webpages.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Razor.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Webpages.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Helpers.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\System.Web.Mvc.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\obj\Debug\web.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\obj\Debug\web.pdb
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\EntityFramework.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\EntityFramework.xml
+C:\Users\Administrator.ELCSKFAV6RFSAJU\Desktop\New folder (2)\Web\web\bin\EntityFramework.SqlServer.xml
