@@ -9,10 +9,7 @@ namespace web.Areas.QuanTri.Controllers
     public class DangNhapController : Controller
     {
         // GET: QuanTri/DangNhap
-        public ActionResult DNhap()
-        {
-            return View();
-        }
+      
         public ActionResult DKy()
         {
             return View();

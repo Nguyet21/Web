@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace web.Controllers
 {
-    public class PhanAnController : Controller
+    public class KhuyenMaiController : Controller
     {
-        //
-        // GET: /PhanAn/
-        public ActionResult PhanAn()
+        // GET: KhuyenMai
+        public ActionResult Kmai()
         {
             return View();
         }
-	}
+    }
 }

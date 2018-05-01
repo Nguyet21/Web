@@ -23,6 +23,8 @@ body{
 	height: 30px;
 	line-height:1.5;
 	position: relative;
+    border-right:1px solid white;
+    border-left:1px solid white;
 }
 #menu ul li a{
 	font-weight: bold;
@@ -36,8 +38,8 @@ body{
 	color: white;
 }
 #menu .sub-menu{
-    margin-left:-530px;
-	width: 1366px;
+    margin-left:-300px;
+	width: 800px;
 	height: 150px;
 	position: relative;
      background-color:#ff0000;

@@ -90,11 +90,11 @@
     <Content Include="CSS\CssDKy.css" />
     <Content Include="CSS\CssDNhap.css" />
     <Content Include="CSS\CssQT.css" />
+    <Content Include="CSS\Km.css" />
     <Content Include="CSS\PhanAn.css" />
     <Content Include="CSS\TrangChu.css" />
     <Content Include="Global.asax" />
     <Content Include="Areas\QuanTri\Views\web.config" />
-    <Content Include="Areas\QuanTri\Views\DangNhap\DNhap.cshtml" />
     <Content Include="Areas\QuanTri\Views\DangNhap\DKy.cshtml" />
     <Content Include="Areas\QuanTri\Views\Shared\_LayoutQTri.cshtml" />
     <Content Include="Areas\QuanTri\Views\TrChuQT\TrangChuQT.cshtml" />
@@ -134,6 +134,7 @@
     <Content Include="images\ga8.PNG" />
     <Content Include="images\ga9.PNG" />
     <Content Include="images\hqdefault.jpg" />
+    <Content Include="images\km1.png" />
     <Content Include="images\lang-en-mobile.png" />
     <Content Include="images\lang-vn-mobile.png" />
     <Content Include="images\left-arrow.png" />
@@ -167,7 +168,7 @@
     <Compile Include="Areas\QuanTri\Controllers\DangNhapController.cs" />
     <Compile Include="Areas\QuanTri\Controllers\TrChuQTController.cs" />
     <Compile Include="Areas\QuanTri\QuanTriAreaRegistration.cs" />
-    <Compile Include="Controllers\PhanAnController.cs" />
+    <Compile Include="Controllers\KhuyenMaiController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -179,8 +180,8 @@
     <Content Include="packages.config" />
     <Content Include="Views\TrangChung\TrangChung.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\PhanAn\PhanAn.cshtml" />
     <Content Include="Views\TrangChu\TrangChu.cshtml" />
+    <Content Include="Views\KhuyenMai\Kmai.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
